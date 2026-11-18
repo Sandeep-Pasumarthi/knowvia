@@ -1,0 +1,21 @@
+[project]
+name = "knowvia"
+version = "0.1.0"
+description = "An enterprise knowledge copilot delivering document-grounded answers with contextual memory, safety guardrails, human approvals, and workflow observability."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.44.5",
+    "fastapi>=0.163.2",
+    "glassflow-rius>=1.6.0",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "langchain-pinecone>=0.2.13",
+    "langgraph>=1.2.22",
+    "psycopg[binary,pool]>=3.3.9",
+    "pydantic-settings>=2.16.3",
+    "pypdf>=7.1.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
+    "uvicorn[standard]>=0.54.0",
+]
